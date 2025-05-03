@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"i id="root" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode with Tailwind Css</title>
+    <link rel="stylesheet" href="output.css">
+    <script>
+        function changeMode(){
+        
+            document.getElementById('root').className="dark"
+        }
+    </script>
+</head>
+<body >
+    <button class="border border-blue-400 m-20 hover:bg-blue-800 transition duration-1000" onclick="changeMode()">DarkjMode</button>
+    <div class="dark:bg-slate-900" >
+        <h1 class="text-7xl">Dark Mode with Tailwind Css</h1>
+        <p class="text-5xl">Code Step by Step</p>
+    </div>
+
+    <div class="flex  m-20 border border-red-800 ">
+        <div class="bg-blue-600 size-20 m-10"></div>
+        <p class="text-5xl m-10">Box with dark Mode</p>
+    
+   </div>
+    
+</body>
+</html>
