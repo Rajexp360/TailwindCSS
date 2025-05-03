@@ -1,1 +1,1 @@
-# These are  a tailwind css projects
+# These are  a tailwind css training
